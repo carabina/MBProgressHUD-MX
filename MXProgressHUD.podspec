@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "The first stable version of MXProgressHUD, a category of MBProgressHUD"
 
-  s.homepage     = "https://github.com/Meniny/MXProgressHUD-MX"
+  s.homepage     = "https://github.com/Meniny/MBProgressHUD-MX"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Meniny/MXProgressHUD-MX.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Meniny/MBProgressHUD-MX.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
