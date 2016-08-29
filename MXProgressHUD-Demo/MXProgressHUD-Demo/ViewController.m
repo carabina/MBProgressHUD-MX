@@ -21,16 +21,16 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [MBProgressHUD showLoading:@"Loading" duration:10];
-//    [MBProgressHUD showSuccess:@"Success"];
-//    [MBProgressHUD showError:@"Error"];
-//    [MBProgressHUD showText:@"Some Text"];
-//    [MBProgressHUD showText:@"Some Text" duration:4];
-//    [MBProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeLoading duration:4 customIcon:nil view:nil];
-//    [MBProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeSuccess duration:4 customIcon:nil view:nil];
-//    [MBProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeError duration:4 customIcon:nil view:nil];
-//    [MBProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeText duration:4 customIcon:nil view:nil];
-//    [MBProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeCustomIcon duration:4 customIcon:[UIImage imageNamed:@"wg" ] view:nil];
+    [MXProgressHUD showLoading:@"Loading" duration:10];
+//    [MXProgressHUD showSuccess:@"Success"];
+//    [MXProgressHUD showError:@"Error"];
+//    [MXProgressHUD showText:@"Some Text"];
+//    [MXProgressHUD showText:@"Some Text" duration:4];
+//    [MXProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeLoading duration:4 customIcon:nil view:nil];
+//    [MXProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeSuccess duration:4 customIcon:nil view:nil];
+//    [MXProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeError duration:4 customIcon:nil view:nil];
+//    [MXProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeText duration:4 customIcon:nil view:nil];
+//    [MXProgressHUD showHUD:@"This is a HUD" type:MBProgressHUDTypeCustomIcon duration:4 customIcon:[UIImage imageNamed:@"wg" ] view:nil];
 }
 
 - (void)didReceiveMemoryWarning {
