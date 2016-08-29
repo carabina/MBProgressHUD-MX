@@ -5,7 +5,7 @@
 //  Copyright (c) 2015年 Meniny. All rights reserved.
 //
 
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 
 typedef enum : NSUInteger {
     MXProgressHUDTypeLoading = 0,
