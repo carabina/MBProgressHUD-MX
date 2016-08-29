@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MXProgressHUD+MX/*"
+  s.source_files  = "MBProgressHUD+MX/*"
   # s.resource      = 'MXKit/MXFoundationPlus/NSDate/DateTools.bundle'
   # s.public_header_files = "Classes/**/*.h"
 
