@@ -14,8 +14,8 @@
 		5C2D15281D73CF8800B23A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D15261D73CF8800B23A3B /* Main.storyboard */; };
 		5C2D152A1D73CF8800B23A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D15291D73CF8800B23A3B /* Assets.xcassets */; };
 		5C2D152D1D73CF8800B23A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D152B1D73CF8800B23A3B /* LaunchScreen.storyboard */; };
-		5C2D15371D73CF9C00B23A3B /* MXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2D15361D73CF9C00B23A3B /* MXProgressHUD.m */; };
-		5C2D153C1D73D4CF00B23A3B /* MXProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C2D153B1D73D4CF00B23A3B /* MXProgressHUD.bundle */; };
+		5CBB31B71D73E881006AE6AA /* MXProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CBB31B41D73E881006AE6AA /* MXProgressHUD.bundle */; };
+		5CBB31B81D73E881006AE6AA /* MXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB31B61D73E881006AE6AA /* MXProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +30,9 @@
 		5C2D15291D73CF8800B23A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C2D152C1D73CF8800B23A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C2D152E1D73CF8800B23A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C2D15351D73CF9C00B23A3B /* MXProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXProgressHUD.h; sourceTree = "<group>"; };
-		5C2D15361D73CF9C00B23A3B /* MXProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXProgressHUD.m; sourceTree = "<group>"; };
-		5C2D153B1D73D4CF00B23A3B /* MXProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MXProgressHUD.bundle; sourceTree = "<group>"; };
+		5CBB31B41D73E881006AE6AA /* MXProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MXProgressHUD.bundle; sourceTree = "<group>"; };
+		5CBB31B51D73E881006AE6AA /* MXProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXProgressHUD.h; sourceTree = "<group>"; };
+		5CBB31B61D73E881006AE6AA /* MXProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXProgressHUD.m; sourceTree = "<group>"; };
 		CBB147B1D50A84F50C1FF6CF /* libPods-MXProgressHUD-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXProgressHUD-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D860D1E2475BDBB67316D8B7 /* Pods-MXProgressHUD-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXProgressHUD-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXProgressHUD-Demo/Pods-MXProgressHUD-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +70,7 @@
 		5C2D151C1D73CF8800B23A3B /* MXProgressHUD-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				5C2D15341D73CF9C00B23A3B /* MBProgressHUD+MX */,
+				5CBB31B31D73E881006AE6AA /* MXProgressHUD */,
 				5C2D15201D73CF8800B23A3B /* AppDelegate.h */,
 				5C2D15211D73CF8800B23A3B /* AppDelegate.m */,
 				5C2D15231D73CF8800B23A3B /* ViewController.h */,
@@ -92,15 +92,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5C2D15341D73CF9C00B23A3B /* MBProgressHUD+MX */ = {
+		5CBB31B31D73E881006AE6AA /* MXProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				5C2D15351D73CF9C00B23A3B /* MXProgressHUD.h */,
-				5C2D15361D73CF9C00B23A3B /* MXProgressHUD.m */,
-				5C2D153B1D73D4CF00B23A3B /* MXProgressHUD.bundle */,
+				5CBB31B41D73E881006AE6AA /* MXProgressHUD.bundle */,
+				5CBB31B51D73E881006AE6AA /* MXProgressHUD.h */,
+				5CBB31B61D73E881006AE6AA /* MXProgressHUD.m */,
 			);
-			name = "MBProgressHUD+MX";
-			path = "../../MBProgressHUD+MX";
+			name = MXProgressHUD;
+			path = ../../MXProgressHUD;
 			sourceTree = "<group>";
 		};
 		7399BB27DC77866BF318C887 /* Pods */ = {
@@ -183,7 +183,7 @@
 				5C2D152D1D73CF8800B23A3B /* LaunchScreen.storyboard in Resources */,
 				5C2D152A1D73CF8800B23A3B /* Assets.xcassets in Resources */,
 				5C2D15281D73CF8800B23A3B /* Main.storyboard in Resources */,
-				5C2D153C1D73D4CF00B23A3B /* MXProgressHUD.bundle in Resources */,
+				5CBB31B71D73E881006AE6AA /* MXProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,8 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C2D15251D73CF8800B23A3B /* ViewController.m in Sources */,
+				5CBB31B81D73E881006AE6AA /* MXProgressHUD.m in Sources */,
 				5C2D15221D73CF8800B23A3B /* AppDelegate.m in Sources */,
-				5C2D15371D73CF9C00B23A3B /* MXProgressHUD.m in Sources */,
 				5C2D151F1D73CF8800B23A3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
